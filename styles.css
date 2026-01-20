@@ -727,10 +727,21 @@ p{
     /* Footer */
     
      /* Footer */
-    .footer-content {
-        padding: 0 20px;
+
+
+    .platforms{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px 20px;
+      max-width: 260px;
+      margin: 0 auto;
     }
-  }
+
+    .platform{
+        justify-content: center;
+        font-size: 14px;
+    }    
+  
   }
     
 
